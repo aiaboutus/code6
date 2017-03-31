@@ -1,0 +1,243 @@
+/*
+* @Author: dhl
+* @Date:   2016-11-26 17:03:18
+* @Last Modified by:   小菜鸟
+* @Last Modified time: 2016-11-27 14:36:25
+*/
+
+
+/* 头部开始 */
+.header {
+	padding-top: 10px;
+}
+
+.l-logo {
+	 float: left;
+}
+
+.l-logo a {
+	 width: 179px;
+	 height: 39px;
+	 display: block;
+	 background: url(../images/logo.jpg) no-repeat;
+	 text-indent: -2000px;
+}
+
+
+.r-search {
+	 float: right;
+	 border: 1px solid #ccc;
+
+	 /* 圆角 */
+	 border-radius: 6px;
+}
+
+.search {
+	 width: 160px;
+	 height: 28px;
+	 padding-left: 5px;
+	 color: #ACACAC;
+	 float: left;
+}
+.btn {
+	 width: 32px;
+	 height: 28px;
+	 background: url(../images/search2.jpg) no-repeat;
+	 float: left;
+}
+
+
+/* 导航开始 */
+.nav {
+	 height: 55px;
+	 border-top: 1px solid #ccc;
+	 background: url(../images/nav_bg.png);
+	 line-height: 55px;
+}
+
+.nav li {
+	 float: left;
+	 background: url(../images/nav_bg-line.png) no-repeat right;
+}
+
+.nav li a {
+	 padding: 0  35px;
+}
+
+
+/* 最新公告开始 */
+.news {
+	 height: 29px;
+	 line-height: 29px;
+	 background-color: #FBFBFB;
+	 border-top: 1px solid #ccc;
+	  border-bottom: 1px solid #ccc;
+}
+
+
+
+.l-news {
+	 float: left;
+}
+
+.r-imgs {
+	 float: right;
+}
+
+.r-imgs img {
+	 vertical-align: middle;
+}
+
+
+/* 商品展示 */
+.product {
+	 margin-top: 15px;
+
+}
+
+.l-pro {
+	 float: left;
+	 width: 310px;
+	 height: 224px;
+	 border: 1px solid #ccc;
+}
+
+.m-pro {
+	 float: left;
+	 width: 373px;
+	 height: 224px;
+	 border: 1px solid #ccc;
+	 margin-left: 13px;
+}
+
+.r-pro {
+	 float: right;
+	 width: 268px;
+	 height: 224px;
+	 border: 1px solid #ccc;
+}
+
+.pro-title {
+	 padding-top: 12px;
+	 padding-left: 5px;
+}
+
+.pro-title i {
+	 width: 14px;
+	 height: 14px;
+	 background: url(../images/o.jpg) no-repeat;
+	 display: block;
+	 float: left;
+	 margin-right: 5px;
+}
+
+.pro-title  h4 {
+	 float: left;
+	 color: green;
+}
+
+.pro-title  a {
+	 float: right;
+	 margin-right: 20px;
+}
+
+
+.content {
+	 text-align: center;
+	 padding-top: 20px;
+	 position: relative;
+}
+
+
+.content  a {
+	  position: absolute;
+}
+
+.lpage {
+	 left: 46px;
+	 top: 78px;
+}
+
+.rpage {
+	 right: 46px;
+	 top: 78px;
+}
+
+
+/* 中间盒子 */
+.m-content {
+	 padding-top: 13px;
+	 padding-left: 22px;
+	 padding-right: 22px;
+}
+
+.m-content li {
+	  height: 27px;
+	  line-height: 27px;
+	  border-bottom: 1px dashed #999;
+}
+
+
+/* 右侧盒子 */
+.r-content h4 {
+	  border-left: 3px solid #98CB00;
+	  padding-left: 6px;
+	  margin-left: 28px;
+	  margin-top: 8px;
+}
+
+.r-content p {
+		margin-left: 28px;
+		margin-top: 40px;
+		line-height: 20px;
+
+}
+
+
+/* 结尾部分开始 */
+.footer {
+
+	 margin-top: 20px;
+}
+.top {
+	 height: 222px;
+	 border-bottom: 1px dashed #414141;
+	 background-color: #2D2D2D;
+
+}
+
+.top dl {
+	 float: left;
+	 margin-top: 15px;
+	 width: 110px;
+}
+
+.top dt {
+	 color: #C7C7C7;
+	 height: 35px;
+}
+
+.top dd {
+	 height: 21px;
+}
+.top .w {
+	position: relative;
+}
+.top img {
+	 position: absolute;
+	 right: 0;
+	 top: 0;
+}
+
+
+
+.bot {
+	 height: 84px;
+	 background-color: #2D2D2D;
+	 overflow: hidden;
+	 text-align: center;
+}
+
+.bot  p {
+	 margin-top: 20px;
+}
